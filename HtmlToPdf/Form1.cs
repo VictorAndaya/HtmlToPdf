@@ -23,7 +23,6 @@ namespace HtmlToPdf
         {
             CreatePdf oCreatePdf = new CreatePdf(txtUrl.Text,txtName.Text);
             txtUrl.Text = txtName.Text = string.Empty;
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -17,7 +17,6 @@ namespace HtmlToPdf
                 string path = AppDomain.CurrentDomain.BaseDirectory + "wkhtmltopdf/wkhtmltopdf.exe";
 
                 ProcessStartInfo oProcessStartInfo = new ProcessStartInfo();
-                oProcessStartInfo.UseShellExecute = false;
                 oProcessStartInfo.FileName = path;
                 oProcessStartInfo.Arguments = url + " " + namePdf+".pdf";
 
